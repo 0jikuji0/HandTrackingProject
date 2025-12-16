@@ -1,0 +1,18 @@
+# Ignorer les environnements virtuels Python
+venv/** linguist-vendored
+.env/** linguist-vendored
+__pycache__/** linguist-vendored
+
+# Venv “in-repo” (structure classique)
+bin/** linguist-vendored
+lib/** linguist-vendored
+lib64/** linguist-vendored
+share/** linguist-vendored
+include/** linguist-vendored
+pyvenv.cfg linguist-vendored
+
+# Ignorer les librairies installées
+site-packages/** linguist-vendored
+**/site-packages/** linguist-vendored
+*.egg-info/** linguist-vendored
+**/*.egg-info/** linguist-vendored
